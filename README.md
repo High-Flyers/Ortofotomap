@@ -12,7 +12,7 @@ libraries:
 - Picamera2,
 - Flask.
 
-# Run program:
+### Run program:
 
     
 1. If you're using a virtual environment like kuklok_env, activate it:
@@ -38,14 +38,14 @@ http://<your-ip-address>:<port>
 6. Stop the Server (Optional):
 Use Ctrl+C in the terminal to stop the server when finished.
 
-# Tecnical debt:
+### Tecnical debt:
 
 1.  Currently, the recording function works only in Mode: Resolution=(1332, 990), FPS=120.05.
 2.  When stopping the recording, streaming also stops, and the program needs to be restarted to resume the live camera feed.
 3.  ecordings are saved in the MJPEG format; however, they play back at high speed, making it difficult to interpret the data.
 
 
-# Other content:
+### Other content:
 
 - setup_camera.sh: script to download dependencis when camera isn't available,
 - quality_intervalometer: function take a photo with optimal quality,
