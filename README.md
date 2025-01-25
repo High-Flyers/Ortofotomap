@@ -42,7 +42,7 @@ Use Ctrl+C in the terminal to stop the server when finished.
 
 1.  Currently, the recording function works only in Mode: Resolution=(1332, 990), FPS=120.05.
 2.  When stopping the recording, streaming also stops, and the program needs to be restarted to resume the live camera feed.
-3.  ecordings are saved in the MJPEG format; however, they play back at high speed, making it difficult to interpret the data.
+3.  Recordings are saved in the MJPEG format; however, they play back at high speed, making it difficult to interpret the data.
 
 
 ### Other content:
